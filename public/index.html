@@ -55,7 +55,6 @@
 				<ul class="nav navbar-nav navbar-right main-nav">
 					<li><a href="#intro">Intro</a></li>
 					<li><a href="#services">Services</a></li>
-					<li><a href="#team">Team</a></li>
 					<li><a href="#pricing">Pricing</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Sign Up</a></li>
 				</ul>
@@ -93,6 +92,11 @@
 							<div class="item">
 								<div class="schedule-row row">
 									<div class="col-xs-6">
+										<h5 class="regular white">Monday</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
 										<h5 class="regular white">Tuesday</h5>
 									</div>
 								</div>
@@ -106,29 +110,34 @@
 										<h5 class="regular white">Thursday</h5>
 									</div>
 								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Friday</h5>
-									</div>
-								</div>
 							</div>
 							<div class="item">
 								<div class="schedule-row row">
 									<div class="col-xs-6">
-										<h5 class="regular white">This Morning</h5>
+										<h5 class="regular white">Friday</h5>
 									</div>
 									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 12:00</h5>
+										<h5 class="white">9 : 00 - 22:00</h5>
 									</div>
 								</div>
 								<div class="schedule-row row">
 									<div class="col-xs-6">
-										<h5 class="regular white">This Afternoon</h5>
+										<h5 class="regular white">Saturday</h5>
 									</div>
 									<div class="col-xs-6 text-right">
-										<h5 class="white">13:30 - 19:45</h5>
+										<h5 class="white">10:00 - 18:00</h5>
 									</div>
 								</div>
+
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Sunday</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">10:00 - 18:00</h5>
+									</div>
+								</div>
+
 							</div>
 						</div>
 					</div>
@@ -165,6 +174,8 @@
 			</div>
 		</div>
 	</section>
+
+
 <section id="services" class="section section-padded">
 		<div class="container">
 			<div class="row text-center title">
@@ -182,6 +193,26 @@
 					</div>
 				</div>
 				
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/guru-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Drive Free</h4>
+						<p class="description">No time or distance limit</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/weight-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Purchase your dream</h4>
+						<p class="description">Some of the most famous car!</p>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 		<div class="cut cut-bottom"></div>
@@ -189,28 +220,21 @@
 
 
 
+<section id="pricing" class="section">
 
 
+		<div class="container">
+			<div class="row title text-center">
+				<h2 class="margin-top white">Pricing</h2>
+				<h4 class="light white">Choose your favorite pricing plan and sign up today!</h4>
+			</div>
+			<div class="row no-margin">
+				<div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
+					<div class="pricing">
+						<div class="box-main active" data-img="img/pricing1.jpg">
+							
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div id="car">
+ <div id="car">
       <input class="model" type="text" placeholder="Car model"/>
       <input class="price-by-day" type="number" placeholder="Price by day"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
@@ -232,6 +256,45 @@
         </div>
       {{/actors}}
     </script>
+						</div>
+		
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">Reserve a Free Trial Class!</h3>
+					<a href="#" class="btn btn-blue ripple trial-button">Start Free Trial</a>
+				</div>
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">Opening Hours <span class="open-blink"></span></h3>
+					<div class="row opening-hours">
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Mon - Fri</h5>
+							<h3 class="regular white">9:00 - 22:00</h3>
+						</div>
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Sat - Sun</h5>
+							<h3 class="regular white">10:00 - 18:00</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+   
+    </script>
     	<!-- Scripts -->
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
@@ -240,7 +303,8 @@
 	<script src="js/typewriter.js"></script>
 	<script src="js/jquery.onepagenav.js"></script>
 	<script src="js/main.js"></script>
-	<script src="drivy.js"></script>
-    <script src="index.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+	<script src="js/drivy.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
